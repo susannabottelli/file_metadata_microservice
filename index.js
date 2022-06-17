@@ -4,7 +4,7 @@ const res = require('express/lib/response');
 require('dotenv').config() // load environment variables from a .env file
 
 var app = express();
-var multer = require('multer'); // to handle form-data (file uploead)
+var multer = require('multer'); // to handle form-data (file upload)
 
 const PORT = 9000;
 
